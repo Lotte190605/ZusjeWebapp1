@@ -1,0 +1,16 @@
+body {
+    background-color: #D5C0AB;
+  }
+h1{
+    background-color: #D5C0AB;
+    text-align: center;
+}
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }

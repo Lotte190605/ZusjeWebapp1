@@ -1,0 +1,58 @@
+body {
+    background-color: #D5C0AB;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 390px;
+    left: 5px;
+  }
+  
+  p {
+    font-family: monospace;
+    font-size: 20px;
+  }
+  img{
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+
+  }
+  .container {
+    text-align: center;
+  }
+
+  .row
+  {
+    position: relative;
+    top: 400px;
+    left: 20px;
+  }
+  /* Style tab links */
+.tablink {
+  background-color: #555;
+  color: #D5C0AB;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
